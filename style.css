@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #120109ec; 
+    color: #ff00e6; 
+    
+}
+
+header {
+    background-color: #120109ec ; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Papyrus", cursive;
+    font-size: 48px;
+    color: #e100ff; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00FFFF; 
+    background-color: darkcyan;
+    border: solid 3px white;
+    font-size: 18px;
+    transition: all 1s ease-in-out;
+}
+
+nav a:hover {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00FFFF; 
+    background-color: darkcyan;
+    border: solid 3px white;
+    font-size: 22px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+
+.banner {
+    background-image: url('https://via.placeholder.com/1200x400'); 
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; 
+    font-size: 36px;
+    text-align: center;
+}
+
+.services {
+    background-color: #120109ec; 
+    padding: 40px;
+    line-height: 1.1;
+}
+
+.services p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.team {
+    background-color: #120109ec ; 
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team div {
+    text-align: center;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid 3px white;
+    transition: all 1s ease-in-out;
+}
+
+.team img:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transform: rotate(5deg);
+}
+
+.team p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.contact {
+    background-color: #120109ec; 
+    padding: 40px;
+    color: #d80e00; 
+}
+
+.contact input, .contact textarea {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #fefefe; 
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.contact button {
+    background-color: #570600; 
+    color: #ff0000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: white solid 2px;
+    transition: all 1s ease-in-out;
+}
+.contact button:hover {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #000000; 
+    text-align: center;
+    border: solid white 3px;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+footer a {
+    color: #00FFFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
